@@ -8,7 +8,8 @@ Require-Bundle: org.eclipse.core.runtime,
  com.secpro.platform.log;bundle-version="1.0.0"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Export-Package: com.danga.MemCached,
+Export-Package: ch.ethz.ssh2,
+ com.danga.MemCached,
  com.fasterxml.uuid,
  com.schooner.MemCached,
  com.schooner.MemCached.command,
@@ -18,4 +19,7 @@ Export-Package: com.danga.MemCached,
 Bundle-ClassPath: .,
  lib/commons-pool-1.5.6.jar,
  lib/java_memcached-release_2.6.6.jar,
- lib/json.jar
+ lib/json.jar,
+ lib/ganymed-ssh2-build210.jar,
+ lib/java-uuid-generator-3.1.1.jar,
+ lib/snmp4j-2.0.3.jar
