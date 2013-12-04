@@ -13,5 +13,6 @@
 	<classpathentry kind="lib" path="lib/commons-net-3.3.jar"/>
 	<classpathentry kind="lib" path="lib/c3p0-0.9.1.jar"/>
 	<classpathentry kind="lib" path="lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="lib/quartz-2.2.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
